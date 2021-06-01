@@ -1,0 +1,4 @@
+﻿  ExpressionEvaluation.cpp
+E:\vs 2019\Data Structure\StackAndQueue\StackAndQueue\StackAndQueue\ExpressionEvaluation.cpp(29,6): warning C4101: “len”: 未引用的局部变量
+E:\vs 2019\Data Structure\StackAndQueue\StackAndQueue\StackAndQueue\ExpressionEvaluation.cpp(98): warning C4172: 返回局部变量或临时变量的地址: suffix
+  StackAndQueue.vcxproj -> E:\vs 2019\Data Structure\StackAndQueue\StackAndQueue\Debug\StackAndQueue.exe
