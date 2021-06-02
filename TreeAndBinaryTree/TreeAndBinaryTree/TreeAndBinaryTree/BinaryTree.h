@@ -1,4 +1,4 @@
-  #pragma once
+#pragma once
 #include <stdio.h>
 #include <stdlib.h>
 #define ElemType char
@@ -8,7 +8,7 @@
 typedef struct BiTNode{
 	ElemType data;
 	struct BiTNode* lchild, * rchild;
-}BiTNode, *BiTree;
+}BiTNode, * BiTree;
 
 void CreateBiTree(BiTree& T)        // 先序创建二叉树
 {
@@ -17,7 +17,7 @@ void CreateBiTree(BiTree& T)        // 先序创建二叉树
     if (data == '#')
         T = NULL;
     else {
-        T = (BiTNode*)malloc(sizeof(BiTNode));
+        T = (BiTree)malloc(sizeof(BiTNode));
         T->data = data;
         CreateBiTree(T->lchild);
         CreateBiTree(T->rchild);
